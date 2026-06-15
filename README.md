@@ -8,25 +8,24 @@ The objective is to uncover business insights related to sales performance, prof
 
 ---
 
-## Project Objectives
+## Tools & Technologies
 
-* Understand business performance using data analysis.
-* Identify top-performing products and categories.
-* Analyze profit trends across categories.
-* Study monthly sales patterns.
-* Evaluate the impact of discounts on profitability.
-* Generate actionable business recommendations.
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
 
 ---
 
-## Tools & Technologies
+## Project Objectives
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Jupyter Notebook
-* CSV Dataset
+- Understand business performance using data analysis.
+- Identify top-performing products and categories.
+- Analyze profit trends across categories.
+- Study monthly sales patterns.
+- Evaluate the impact of discounts on profitability.
+- Generate actionable business recommendations.
 
 ---
 
@@ -34,160 +33,155 @@ The objective is to uncover business insights related to sales performance, prof
 
 Dataset: Global Superstore Dataset
 
-Records: 51,290
+Key Fields:
 
-Features Include:
-
-* Order Details
-* Customer Information
-* Product Information
-* Sales
-* Profit
-* Discount
-* Quantity
-* Category
-* Region
-* Order Date
+- Sales
+- Profit
+- Discount
+- Quantity
+- Category
+- Product Name
+- Customer Name
+- Region
+- Order Date
 
 ---
 
-## Project Workflow
+## Analysis Performed
 
-### Phase 1 – Data Understanding
+### Phase 1 — Data Understanding
 
-* Load dataset
-* Explore rows and columns
-* Check data types
-* Review dataset structure
+- Dataset overview
+- Data types
+- Missing values analysis
 
-### Phase 2 – Data Cleaning
+### Phase 2 — Data Cleaning
 
-* Missing value analysis
-* Duplicate record analysis
-* Data quality verification
+- Missing value check
+- Duplicate record check
+- Data preparation
 
-### Phase 3 – Business KPIs
+### Phase 3 — Business KPIs
 
-Calculated:
+- Total Sales
+- Total Profit
+- Total Orders
+- Total Customers
+- Average Discount
 
-* Total Sales
-* Total Profit
-* Total Orders
-* Total Customers
-* Average Discount
+### Phase 4 — Category Analysis
 
-### Phase 4 – Category Analysis
+- Sales by Category
 
-Analyzed:
+### Phase 5 — Profit Analysis
 
-* Sales by Category
-* Category Performance Comparison
+- Profit by Category
 
-### Phase 5 – Profit Analysis
+### Phase 6 — Customer Analysis
 
-Analyzed:
+- Top Customers by Sales
 
-* Profit by Category
-* Profit Contribution Analysis
+### Phase 7 — Product Analysis
 
-### Phase 6 – Customer Analysis
+- Top 10 Products by Sales
 
-Analyzed:
+### Phase 8 — Time Analysis
 
-* Top Customers by Sales
-* Customer Revenue Contribution
+- Monthly Sales Trend
 
-### Phase 7 – Product Analysis
+### Phase 9 — Discount Impact
 
-Analyzed:
-
-* Top 10 Products by Sales
-* Product Performance Ranking
-
-### Phase 8 – Time Analysis
-
-Analyzed:
-
-* Monthly Sales Trends
-* Seasonal Business Performance
-
-### Phase 9 – Discount Impact Analysis
-
-Business Question:
-
-Does a higher discount reduce profit?
-
-Method:
-
-* Scatter Plot Analysis
-* Discount vs Profit Relationship
-
-### Phase 10 – Region Analysis
-
-Analyzed:
-
-* Sales by Region
-* Regional Performance Comparison
+- Discount vs Profit Relationship
 
 ---
 
-## Visualizations
+# Visualizations
 
-The project includes the following visualizations:
+## Sales by Category
 
-* Sales by Category
-* Profit by Category
-* Top Products by Sales
-* Monthly Sales Trend
-* Discount vs Profit
-* Top Customers by Sales
-* Sales by Region
+![Sales by Category](Visualizations/sales_by_category.png)
 
 ---
 
-## Key Insights
+## Profit by Category
 
-### Technology Category Leads Performance
-
-Technology generated the highest sales and profit among all categories.
-
-### Year-End Sales Surge
-
-November and December recorded the strongest sales performance.
-
-### Discount Reduces Profitability
-
-Higher discount levels generally resulted in lower profits.
-
-### Customer Concentration
-
-A small group of customers contributed significantly to overall revenue.
-
-### Regional Differences
-
-Sales performance varied across regions, highlighting growth opportunities.
+![Profit by Category](Visualizations/profit_by_category.png)
 
 ---
 
-## Business Recommendations
+## Region Sales Analysis
 
-* Focus marketing efforts on Technology products.
-* Reduce excessive discounting.
-* Strengthen customer retention strategies.
-* Improve inventory planning during peak seasons.
-* Expand successful products in high-performing regions.
+![Region Sales](Visualizations/region_sales.png)
+
+---
+
+## Top Customers
+
+![Top Customers](Visualizations/top_customers.png)
+
+---
+
+## Top Products
+
+![Top Products](Visualizations/top_products.png)
+
+---
+
+## Monthly Sales Trend
+
+![Monthly Sales](Visualizations/monthly_sales.png)
+
+---
+
+## Discount vs Profit
+
+![Discount vs Profit](Visualizations/discount_vs_profit.png)
+
+---
+
+## Key Business Insights
+
+### Sales Performance
+
+- Technology generated the highest sales.
+- Office Supplies and Furniture contributed significantly to revenue.
+
+### Profitability
+
+- Technology category produced the highest profit.
+- Furniture generated lower profit compared to sales volume.
+
+### Customer Insights
+
+- A small number of customers contributed a large portion of revenue.
+- Customer concentration indicates opportunities for loyalty programs.
+
+### Product Insights
+
+- Several products significantly outperform others in sales.
+- Top-selling products drive a large share of total revenue.
+
+### Seasonal Trends
+
+- Sales peak during the final months of the year.
+- Strong year-end demand indicates seasonal purchasing behavior.
+
+### Discount Impact
+
+- Higher discounts generally reduce profitability.
+- Excessive discounting can result in negative profits.
 
 ---
 
 ## Repository Structure
 
 ```text
-global-superstore-sales-analysis-python
+superstore-sales-analysis-python
 │
 ├── Dataset
 ├── Notebook
 ├── Visualizations
-├── Business_Insights
+├── Business Insights
 └── README.md
 ```
 
